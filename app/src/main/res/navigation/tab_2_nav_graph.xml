@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@+id/tab2StartFragment">
+
+    <fragment
+        android:id="@+id/tab2StartFragment"
+        android:name="yan.zubritskiy.s2.screens.Tab2StartFragment"
+        android:label="tab2StartFragment">
+        <action
+            android:id="@+id/action_tab2StartFragment_to_tab2SecondFragment"
+            app:destination="@id/tab2SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tab2SecondFragment"
+        android:name="yan.zubritskiy.s2.screens.Tab2SecondFragment"
+        android:label="tab2SecondFragment" />
+</navigation>
